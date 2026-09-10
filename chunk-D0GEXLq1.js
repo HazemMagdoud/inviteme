@@ -1,1 +1,0 @@
-import {E as E$1}from'./chunk-D9_2RwdZ.js';var r=class extends E$1{async canShare(){return typeof navigator>"u"||!navigator.share?{value:false}:{value:true}}async share(a){if(typeof navigator>"u"||!navigator.share)throw this.unavailable("Share API not available in this browser");return await navigator.share({title:a.title,text:a.text,url:a.url}),{}}};export{r as ShareWeb};
