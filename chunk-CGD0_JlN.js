@@ -1,0 +1,1 @@
+import {w as e$1}from'./main-4ZRG67SF.js';var e=e$1.publicBaseUrl.replace(/\/$/,""),o=`${e}/privacy.html`,c=`${e}/terms.html`;export{c,o};
